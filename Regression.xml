@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/naveentedla/Downloads/ATF/src/test/java/testCases">
+        <classes>
+            <class name="testCases.VerifyHomePageTests">
+                <methods>
+                    <include name="testHomePage"/>
+                </methods>
+            </class>
+            <class name="testCases.VerifyLoginPageTests">
+                <methods>
+                    <include name="testSignInPage"/>
+                </methods>
+            </class>
+            <class name="testCases.VerifyLoginPageTestsWithReports">
+                <methods>
+                    <include name="testSignInPage"/>
+                </methods>
+            </class>
+            <class name="testCases.VerifyLoginPageTestsWithReports1">
+                <methods>
+                    <include name="testSignInPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
